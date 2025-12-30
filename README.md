@@ -1,4 +1,5 @@
 Análisis de ventas conforme al tiempo
+________________________________________
 🔍 Validación de Calidad de Datos
 Durante el proceso de análisis se realizó una revisión exhaustiva de la calidad de los datos mediante el uso de funciones de Excel para la detección de errores y celdas vacías.
 •	Se comprobó que no existen errores de cálculo o de tipo de dato en las columnas analizadas, lo que garantiza la fiabilidad del dataset para la creación de KPIs.
@@ -6,6 +7,7 @@ Durante el proceso de análisis se realizó una revisión exhaustiva de la calid
 •	Por ejemplo, el campo STATE solo aplica a países como Estados Unidos, mientras que en otros países (como España) este campo no es obligatorio ni relevante, por lo que su ausencia es correcta.
 •	De igual forma, campos como direcciones secundarias pueden aparecer en blanco sin afectar a la integridad de la información principal.
 Gracias a esta validación, se concluye que el dataset es consistente, coherente y apto para el análisis, sin necesidad de correcciones forzadas.
+________________________________________
 🔧 Cambios Realizados
 Durante el proceso de preparación y análisis de los datos, se realizaron los siguientes cambios y mejoras:
 •	Recalcular SALES ya que estaba mal calculado.
